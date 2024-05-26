@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  color: #fff;
 }
 
 h1,
@@ -52,7 +51,7 @@ ol {
 .title {
   margin-bottom: 26px;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -124,6 +123,10 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 206px; 
 }
 
 .search-form__label {
@@ -275,11 +278,15 @@ ol {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 206px; 
 }
 
 .content__video-card-description {
